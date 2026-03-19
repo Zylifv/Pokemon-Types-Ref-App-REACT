@@ -2,6 +2,7 @@ import "./styles.css";
 import { useState, useEffect } from "react";
 import { typesRef } from "./pokemon";
 import { colorRef } from "./colors";
+import GoTop from "./ScrollBtn";
 
 export default function App() {
   const typeNames = typesRef.map((name) => name.type);
@@ -255,6 +256,7 @@ export default function App() {
       <div id="wrap">
         <h1>Pokemon Types Chart</h1>
         <div id="sig">- By R McGregor</div>
+        <GoTop />
         <input
           id="input-search"
           placeholder="Search for Pokemon Types here..."
