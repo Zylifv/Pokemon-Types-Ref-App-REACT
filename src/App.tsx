@@ -37,6 +37,7 @@ export default function App() {
         <h2>{type.type} type</h2>
         <img
           src={type.svg}
+          alt={`${type.type}-icon`}
           className="icon"
           style={{
             background: `${type.color}`,
@@ -56,7 +57,11 @@ export default function App() {
           >
             <h4>
               Offensive properties of
-              <img src={type.svg} className="title-img" />
+              <img
+                src={type.svg}
+                className="title-img"
+                alt={`${type.type}-icon`}
+              />
               {type.type} type moves
             </h4>
           </div>
@@ -75,6 +80,7 @@ export default function App() {
               >
                 <img
                   src={`https://github.com/duiker101/pokemon-type-svg-icons/blob/master/icons/${el.toLowerCase()}.svg?raw=true}`}
+                  alt={`${type.type}-icon`}
                   style={{
                     width: "15px",
                     height: "15px",
@@ -101,6 +107,7 @@ export default function App() {
               >
                 <img
                   src={`https://github.com/duiker101/pokemon-type-svg-icons/blob/master/icons/${el.toLowerCase()}.svg?raw=true}`}
+                  alt={`${type.type}-icon`}
                   style={{
                     width: "15px",
                     height: "15px",
@@ -127,6 +134,7 @@ export default function App() {
               >
                 <img
                   src={`https://github.com/duiker101/pokemon-type-svg-icons/blob/master/icons/${el.toLowerCase()}.svg?raw=true}`}
+                  alt={`${type.type}-icon`}
                   style={{
                     width: "15px",
                     height: "15px",
@@ -151,7 +159,11 @@ export default function App() {
           >
             <h4>
               Defensive properties of
-              <img src={type.svg} className="title-img" />
+              <img
+                src={type.svg}
+                className="title-img"
+                alt={`${type.type}-icon`}
+              />
               {type.type} type moves
             </h4>
           </div>
@@ -170,6 +182,7 @@ export default function App() {
               >
                 <img
                   src={`https://github.com/duiker101/pokemon-type-svg-icons/blob/master/icons/${el.toLowerCase()}.svg?raw=true}`}
+                  alt={`${type.type}-icon`}
                   style={{
                     width: "15px",
                     height: "15px",
@@ -196,6 +209,7 @@ export default function App() {
               >
                 <img
                   src={`https://github.com/duiker101/pokemon-type-svg-icons/blob/master/icons/${el.toLowerCase()}.svg?raw=true}`}
+                  alt={`${type.type}-icon`}
                   style={{
                     width: "15px",
                     height: "15px",
@@ -222,6 +236,7 @@ export default function App() {
               >
                 <img
                   src={`https://github.com/duiker101/pokemon-type-svg-icons/blob/master/icons/${el.toLowerCase()}.svg?raw=true}`}
+                  alt={`${type.type}-icon`}
                   style={{
                     width: "15px",
                     height: "15px",
