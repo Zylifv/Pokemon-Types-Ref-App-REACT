@@ -10,6 +10,10 @@ Currently the app will start with all types and the user can either scroll throu
 I am thinking of maybe having the first screen just be the circle logos for each type and then the user can select the icon to show the type effectiveness chart that way.
 I will come back and refine this later on whilst i work on scarpening my other skills.
 
-To see a working version of this app, please use my CodeSandbox link below:
+To see a working version of this app, please use my CodePen link below:
+
+https://codepen.io/BobbyArmac/full/yyaoaVp
+
+Or alternatively, you can use this Codesandbox link:
 
 https://6ckjc7-3000.csb.app/
