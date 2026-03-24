@@ -16,8 +16,8 @@ const InfoTabDisplay = () => {
           id="info-tab-svg"
           src={
             infoDisplay
-              ? "https://www.svgrepo.com/show/155822/up-arrow-angle.svg"
-              : "https://www.svgrepo.com/show/102662/arrow-down-angle.svg"
+              ? "https://www.svgrepo.com/show/491376/chevron-small-up.svg"
+              : "https://www.svgrepo.com/show/491373/chevron-small-down.svg"
           }
           alt="down-arrow-symbol"
         />
