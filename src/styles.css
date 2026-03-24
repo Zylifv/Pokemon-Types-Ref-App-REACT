@@ -61,8 +61,8 @@ h4 {
 
 #info-tab-svg {
   margin: auto;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  margin-top: -5px;
   filter: invert(84%) sepia(0%) saturate(1499%) hue-rotate(211deg)
     brightness(86%) contrast(79%);
 }
