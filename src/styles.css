@@ -44,8 +44,50 @@ h4 {
   justify-content: center;
   margin: 0px;
   height: 25px;
-  line-height: 20px;
+  line-height: 21px;
   color: white;
+}
+
+#info-tab-btn {
+  position: fixed;
+  top: 0;
+  width: 50px;
+  height: 25px;
+  align-items: center;
+  border: none;
+  border-radius: 0px 0px 5px 5px;
+  z-index: 5;
+}
+
+#info-tab-svg {
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  filter: invert(84%) sepia(0%) saturate(1499%) hue-rotate(211deg)
+    brightness(86%) contrast(79%);
+}
+
+#information {
+  margin: auto;
+  position: fixed;
+  top: -20px;
+  padding-top: 30px;
+  width: 400px;
+  height: 180px;
+  margin-top: 20px;
+  text-align: center;
+  background: white;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 12px 25px 0px;
+}
+
+#hide-information {
+  display: none;
+}
+
+#info-tab-btn:hover > img {
+  filter: invert(13%) sepia(6%) saturate(899%) hue-rotate(211deg)
+    brightness(95%) contrast(88%);
 }
 
 .icon {
@@ -149,9 +191,9 @@ h4 {
   display: flex;
   width: 250px;
   height: 23px;
-  -webkit-box-shadow: 0px 0px 10px 1px rgba(160,162,159, 1);
-  -moz-box-shadow: 0px 0px 10px 1px rgba(160,162,159, 1);
-  box-shadow: 0px 0px 10px 1px rgba(160,162,159, 1);
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(160, 162, 159, 1);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(160, 162, 159, 1);
+  box-shadow: 0px 0px 10px 1px rgba(160, 162, 159, 1);
   text-align: center;
   border-radius: 3px;
   border: none;
@@ -167,6 +209,7 @@ h4 {
 
 a {
   text-decoration: none;
+  /*text-shadow: 1px 0 0 #2c2b30, 0 -1px 0 #2c2b30, 0 1px 0 #2c2b30, -1px 0 0 #2c2b30;*/
 }
 
 .btn {
@@ -186,7 +229,8 @@ a {
 }
 
 .btn:hover > #up-arrow {
-  filter: invert(13%) sepia(6%) saturate(899%) hue-rotate(211deg) brightness(95%) contrast(88%);
+  filter: invert(13%) sepia(6%) saturate(899%) hue-rotate(211deg)
+    brightness(95%) contrast(88%);
 }
 
 .hideBtn {
@@ -195,7 +239,8 @@ a {
 
 #up-arrow {
   width: 30px;
-  filter: invert(84%) sepia(0%) saturate(1499%) hue-rotate(211deg) brightness(86%) contrast(79%);
+  filter: invert(84%) sepia(0%) saturate(1499%) hue-rotate(211deg)
+    brightness(86%) contrast(79%);
 }
 
 #sig {

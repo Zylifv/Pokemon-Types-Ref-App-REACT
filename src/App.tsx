@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { typesRef } from "./pokemon";
 import { colorRef } from "./colors";
 import GoTop from "./ScrollBtn";
+import InfoTabDisplay from "./InfoTabBtn";
 
 export default function App() {
   const typeNames = typesRef.map((name) => name.type);
@@ -36,15 +37,20 @@ export default function App() {
         }}
       >
         <h2>{type.type} type</h2>
-        <img
-          src={type.svg}
-          alt={`${type.type}-icon`}
-          className="icon"
-          style={{
-            background: `${type.color}`,
-            boxShadow: `0 0 20px ${type.color}`,
-          }}
-        />
+        <a
+          href={`https://pokemondb.net/pokedex/all#type=${type.type.toLowerCase()}`}
+          target="_blank"
+        >
+          <img
+            src={type.svg}
+            alt={`${type.type}-icon`}
+            className="icon"
+            style={{
+              background: `${type.color}`,
+              boxShadow: `0 0 20px ${type.color}`,
+            }}
+          />
+        </a>
 
         <div
           className="offense-info"
@@ -254,6 +260,7 @@ export default function App() {
   return (
     <>
       <div id="wrap">
+        <InfoTabDisplay />
         <h1>Pokemon Types Chart</h1>
         <div id="sig">- By R McGregor</div>
         <GoTop />
